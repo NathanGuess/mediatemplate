@@ -1,0 +1,170 @@
+/* General page setup */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0b2b;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #0033a0;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #ffcc00;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#hero h2 {
+  font-size: 2.8rem;
+  color: #ffcc00;
+  text-shadow: 2px 2px 6px #000;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Section Styling */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+ 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1 1 300px;
+  background-color: #1a1a4a;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #0033a0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* intro section */
+#intro {
+  background: radial-gradient(circle at center, #0033a0 0%, #000 80%);
+  color: #ffcc00;
+  text-align: center;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.intro-content {
+position: relative;
+z-index: 2;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 20px;
+padding: 20px 40px;
+background: rgba(0,0,0,0.25);
+border-radius: 15px;
+}
+
+.intro-text {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+text-align: left;
+}
+
+/*  image size */
+.intro-logo {
+  width: 150px;  
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+/* Heading style */
+#intro h1 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px #000;
+}
+
+/*audio style */
+#audio {
+  width: 1500px;       
+  opacity: 0.2;      
+  position: fixed;   
+  bottom: 10px;
+  right:375px;
+  z-index: 1000;
+} 
